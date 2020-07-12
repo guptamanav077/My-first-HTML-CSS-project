@@ -1,5 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  /* float: left; */
+}
+
 body {
-  background-color: blue;
+  background-color: yellow;
   margin:0px;
 }
 
@@ -9,9 +18,25 @@ nav {
   border: none;
 }
 
+main {
+  border-right-style: solid;
+  border-left-style: solid;
+  border-right-width: 384px;
+  border-left-width: 384px;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  /* text-align: center; */
+  /* margin: auto; */
+}
+
+.intro {
+
+}
+
 .topnav {
-  background-color: black;
-  overflow: hidden;
+  background-color: blue;
+  overflow: auto;
 }
 
 .topnav a {
@@ -21,7 +46,7 @@ nav {
   padding: 14px 16px;
   font-size: 17px;
   text-decoration: none;
-  background-color: black;
+  background-color: blue;
 }
 
 .topnav a:hover {
